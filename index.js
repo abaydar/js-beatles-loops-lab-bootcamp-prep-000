@@ -14,6 +14,6 @@ function johnLennonFacts(facts){var newFacts = []; var n = 0;
 function iLoveTheBeatles(n){
   var newArr = [];
   var j = 0;
-do{j++; n = newArr.push('I love the Beatles!')} while(){}  if(n === 17){
+do{j++; n = newArr.push('I love the Beatles!')} while(j<n){}  if(n === 17){
     return 'I love the Beatles!'}
 return newArr}
