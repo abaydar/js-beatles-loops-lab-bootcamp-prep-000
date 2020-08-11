@@ -12,4 +12,4 @@ function johnLennonFacts(facts){var newFacts = []; var n = 0;
   while(n<facts.length){newFacts.push(`${facts[n]}!!!`); n++} return newFacts}
 
 function iLoveTheBeatles(n){var newArr = []; var j = 0;
-do{j++; newArr.push('I love the Beatles!');} while(n<15)}
+do{j++; newArr.push('I love the Beatles!');} while(n<15); return newArr}
