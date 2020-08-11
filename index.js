@@ -9,5 +9,5 @@ for (var i = 0; i<4; i++){empty.push(`${musicians[i]} plays ${instruments[i]}`)}
 
 const facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
 function johnLennonFacts(facts){var newFacts = []; var n = 0;
-  while(facts.length < n){newFacts.push(`${facts[n]}!!!`); n++} return newFacts}
+  while(n<facts.length){newFacts.push(`${facts[n]}!!!`); n++} return newFacts}
   
