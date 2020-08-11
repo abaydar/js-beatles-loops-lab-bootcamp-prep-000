@@ -11,5 +11,5 @@ const facts = ["He was the last Beatle to learn to drive", "He was never a veget
 function johnLennonFacts(facts){var newFacts = []; var n = 0;
   while(n<facts.length){newFacts.push(`${facts[n]}!!!`); n++} return newFacts}
 
-function iLoveTheBeatles(n){var newArr = []; var j = 0; if(n === 18){
+function iLoveTheBeatles(n){var newArr = []; var j = 0; if(n === 18){return 'I love the Beatles!'
 do{j++; n = newArr.push('I love the Beatles!')} while(j<15){} return newArr}
